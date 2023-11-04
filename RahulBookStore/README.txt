@@ -123,3 +123,6 @@ add-migration AddCategoryToDb
 Was getting duplication error took some time to figure out the solution
 Error: The name 'AddCategoryToDb' is used by an existing migration
 solution: Deleted the already created file and re run the command to add migration
+
+2023-11-04 1832
+updated database
