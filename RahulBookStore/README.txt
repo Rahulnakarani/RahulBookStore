@@ -94,5 +94,32 @@ Craeted Admin Area
 Added view file 
 
 2023-10-28 2225
-Buid is successfull
+Build is successfull
 Application Runs successfully
+
+2023-11-04 1755
+Created Migration with NuGet Console
+
+add-migration AddDefaultIdentityMigration
+
+Migration Files
+20231104215434_AddDefaultIdentityMigration.cs
+ApplicationDbContextModelSnapshot.cs
+
+2023-11-04 1759
+Updated Database
+
+update-database
+
+2023-11-04 1808
+Created Category.cs file in .Models project
+
+2023-11-04 1810
+Added Migration
+
+add-migration AddCategoryToDb
+
+2023-11-04 1829
+Was getting duplication error took some time to figure out the solution
+Error: The name 'AddCategoryToDb' is used by an existing migration
+solution: Deleted the already created file and re run the command to add migration

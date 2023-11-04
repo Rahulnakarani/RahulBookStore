@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RahulBooks.Utility\RahulBooks.Utility.csproj" />
+  </ItemGroup>
+
 </Project>
