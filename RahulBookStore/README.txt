@@ -126,3 +126,10 @@ solution: Deleted the already created file and re run the command to add migrati
 
 2023-11-04 1832
 updated database
+
+2023-11-04 1841
+Added new interface called IRepository.cs in .DataAccess
+Modified it for CRUD
+
+2023-11-04 1846
+Completed IRepository.cs
