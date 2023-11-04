@@ -136,3 +136,14 @@ Completed IRepository.cs
 
 2023-11-04 1855
 Created Repository.cs
+
+2023-11-04 1902
+Created two files 
+	ICategoryRepository.cs
+	CategoryRepository.cs
+
+2023-11-04 1709
+Updated CategoryRepository.cs
+
+2023-11-04 1712
+Updated ICategoryRepository.cs
