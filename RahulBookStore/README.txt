@@ -142,8 +142,21 @@ Created two files
 	ICategoryRepository.cs
 	CategoryRepository.cs
 
-2023-11-04 1709
+2023-11-04 1909
 Updated CategoryRepository.cs
 
-2023-11-04 1712
+2023-11-04 1912
 Updated ICategoryRepository.cs
+
+2023-11-04 1944
+Created ISP_Call.cs
+
+2023-11-04 2008
+Created and updated SP_Call.cs
+
+2023-11-04 2130
+Was getting san error final got the application working
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0311	The type 'RahulBooks.DataAccess.Repository.UnitOfWork' cannot be used as type parameter 'TImplementation' in the generic type or method 'ServiceCollectionServiceExtensions.AddScoped<TService, TImplementation>(IServiceCollection)'. There is no implicit reference conversion from 'RahulBooks.DataAccess.Repository.UnitOfWork' to 'RahulBooks.DataAccess.Repository.IRepository.IUnitOfWork'.	RahulBookStore	C:\Users\sc\source\repos\RahulBookStore\RahulBookStore\Startup.cs	39	Active
+
+Updated Startup.cs

@@ -16,3 +16,4 @@ namespace RahulBookStore.DataAccess.Data
         public DbSet<Category> Categories { get; set; }
     }
 }
+    
