@@ -36,8 +36,12 @@ namespace RahulBookStore.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            return View();
+            return View(category);
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public 
 
         #region API CALLS
         [HttpGet]

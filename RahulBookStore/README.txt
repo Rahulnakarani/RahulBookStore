@@ -184,3 +184,6 @@ cannot see the view
 Uodated controller and added upsert method
 
 Created Partial Views
+
+2023-11-05 0954
+Updated categoryController.cs file
