@@ -170,3 +170,11 @@ Works fine
 
 2023-11-05 1712
 Created CategoryController in Admin area
+
+2023-11-05 1727
+Added Index.cshtml in Views folder
+
+Running the application
+
+cannot see the view
+
