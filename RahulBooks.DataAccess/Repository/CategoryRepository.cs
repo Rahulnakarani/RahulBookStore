@@ -8,7 +8,7 @@ using System.Text;
 
 namespace RahulBooks.DataAccess.Repository
 {
-    class CategoryRepository : Repository<Category>, ICategoryRepository
+    public class CategoryRepository : Repository<Category>, ICategoryRepository
     {
         private readonly ApplicationDbContext _db;
 
@@ -25,7 +25,6 @@ namespace RahulBooks.DataAccess.Repository
                 objFromDb.Name = category.Name;
                 _db.SaveChanges();
             }
-            throw new NotImplementedException();
         }
     }
 }
