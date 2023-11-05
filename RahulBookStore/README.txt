@@ -178,3 +178,4 @@ Running the application
 
 cannot see the view
 
+[Area("Admin")] Forgot to put this in controller
