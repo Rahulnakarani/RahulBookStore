@@ -162,3 +162,11 @@ Created UnitOfWork Class in Repository
 
 2023-11-05 1654
 Updated Startup.cs
+
+2023-11-05 1700
+Runned the Application 
+
+Works fine
+
+2023-11-05 1712
+Created CategoryController in Admin area
