@@ -153,3 +153,12 @@ Created ISP_Call.cs
 
 2023-11-04 2008
 Created and updated SP_Call.cs
+
+2023-11-05 0645
+Created IUnitOfWoek Interface in IRepository
+
+2023-11-05 1650
+Created UnitOfWork Class in Repository
+
+2023-11-05 1654
+Updated Startup.cs

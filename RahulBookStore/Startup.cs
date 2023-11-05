@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RahulBooks.DataAccess.Repository;
+using RahulBooks.DataAccess.Repository.IRepository;
 using RahulBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -31,7 +33,7 @@ namespace RahulBookStore
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
-
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
