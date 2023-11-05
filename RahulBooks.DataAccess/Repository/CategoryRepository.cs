@@ -8,7 +8,7 @@ using System.Text;
 
 namespace RahulBooks.DataAccess.Repository
 {
-    public class CategoryRepository : Repository<Category>, ICategoryRepository
+    class CategoryRepository : Repository<Category>, ICategoryRepository
     {
         private readonly ApplicationDbContext _db;
 
@@ -23,7 +23,6 @@ namespace RahulBooks.DataAccess.Repository
             if (objFromDb != null)
             {
                 objFromDb.Name = category.Name;
-                _db.SaveChanges();
             }
         }
     }
