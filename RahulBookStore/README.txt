@@ -157,21 +157,21 @@ Created and updated SP_Call.cs
 2023-11-05 0645
 Created IUnitOfWoek Interface in IRepository
 
-2023-11-05 1650
+2023-11-05 0650
 Created UnitOfWork Class in Repository
 
-2023-11-05 1654
+2023-11-05 0654
 Updated Startup.cs
 
-2023-11-05 1700
+2023-11-05 0700
 Runned the Application 
 
 Works fine
 
-2023-11-05 1712
+2023-11-05 0712
 Created CategoryController in Admin area
 
-2023-11-05 1727
+2023-11-05 0727
 Added Index.cshtml in Views folder
 
 Running the application
@@ -179,3 +179,8 @@ Running the application
 cannot see the view
 
 [Area("Admin")] Forgot to put this in controller
+
+2023-11-05 0909
+Uodated controller and added upsert method
+
+Created Partial Views
