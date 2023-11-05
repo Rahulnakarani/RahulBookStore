@@ -190,3 +190,8 @@ Updated categoryController.cs file
 
 2023-11-05 1022
 Added functionality for edit and delete category
+
+2023-11-05 1038
+Updated Delete functionality
+
+Added sweet alert in Category.js
