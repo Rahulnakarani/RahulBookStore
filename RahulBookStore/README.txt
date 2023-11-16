@@ -104,6 +104,7 @@ add-migration AddDefaultIdentityMigration
 
 Migration Files
 20231104215434_AddDefaultIdentityMigration.cs
+20231104222825_AddCategoryToDb.cs
 ApplicationDbContextModelSnapshot.cs
 
 2023-11-04 1759
@@ -195,3 +196,21 @@ Added functionality for edit and delete category
 Updated Delete functionality
 
 Added sweet alert in Category.js
+
+2023-11-05 1045
+Project runs successfully
+
+
+2023-11-16 1802
+==================================================================
+                 Assignment 2 part 1 overview
+==================================================================
+In the RahulBookStore Project Overview: The inception of the RahulBookStore project involved the creation of two crucial files—README.txt 
+for tracking changes and README.md for general project information. To facilitate version control and collaboration, a dedicated GitHub 
+repository named RahulBookStore was established, serving as the central hub for updates. Leveraging a theme sourced from bootswatch.com, 
+the project's aesthetic and functional aspects were enhanced. The project structure expanded with the inception of three subprojects: 
+RahulBooks.DataAccess, RahulBooks.Models, and RahulBooks.Utility, each mirroring specific folders from the primary project. This segmentation 
+facilitated a more organized workflow. The project's functionality was augmented by the integration of essential NuGet packages, ensuring 
+smooth operations. Furthermore, intricate connections were forged between the projects by setting up references, fostering a cohesive 
+ecosystem. Dividing the main project into distinct areas—Customer and Admin—enabled streamlined navigation and management, laying the 
+groundwork for future development and expansion.
