@@ -55,7 +55,7 @@ namespace RahulBookStore.Areas.Admin.Controllers
             return View(productVM);
         }
 
-        /*[HttpPost]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Product product)
         {
@@ -74,7 +74,7 @@ namespace RahulBookStore.Areas.Admin.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(product);
-        } */
+        }
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()

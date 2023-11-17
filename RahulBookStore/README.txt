@@ -343,3 +343,10 @@ Added code for tiny cloud in upsert.cshtml
 2023-11-17 1816
 Running an application
 Run is successful
+
+2023-11-17 1822
+created two folders in wwwroot images/products
+Uncommented Upsert from ProductController.cs
+To update the method no file is given in Assignment 2 files
+Final build and run
+Getting an error must be because of the upsert method
