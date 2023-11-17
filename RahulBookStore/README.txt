@@ -230,3 +230,7 @@ Index.cshtml, presenting categories, and modifications in _Layout.cshtml, incorp
 Upsert.cshtml emerged as the central hub for managing categories, equipped with functionalities for adding, updating, and deleting 
 categories. These functionalities were reinforced by intricate modifications in both Upsert.cshtml and category.js, the latter leveraging 
 SweetAlert for streamlined and visually appealing alerts, enhancing user experience during category management.
+
+2023-11-16 1907
+Ran the application before implementing the part 3
+Yay!!! Application runs fine without any error.
