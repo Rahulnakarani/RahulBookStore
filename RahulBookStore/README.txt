@@ -318,3 +318,7 @@ Created ProductVM in RahulBooks.Models
 Updated ProductVM.cs file
 Had to install a package named Microsoft.AspNetCore.Mvc.ViewFeatures
 
+2023-11-17 1723
+Updated ProductController.cs
+added Upsert method and API Calls.
+GetAll() and Delete()
