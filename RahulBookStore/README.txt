@@ -205,7 +205,7 @@ Project runs successfully
 ==================================================================
                  Assignment 2 part 1 overview
 ==================================================================
-In the RahulBookStore Project Overview: The inception of the RahulBookStore project involved the creation of two crucial files—README.txt 
+The inception of the RahulBookStore project involved the creation of two crucial files—README.txt 
 for tracking changes and README.md for general project information. To facilitate version control and collaboration, a dedicated GitHub 
 repository named RahulBookStore was established, serving as the central hub for updates. Leveraging a theme sourced from bootswatch.com, 
 the project's aesthetic and functional aspects were enhanced. The project structure expanded with the inception of three subprojects: 
@@ -214,3 +214,19 @@ facilitated a more organized workflow. The project's functionality was augmented
 smooth operations. Furthermore, intricate connections were forged between the projects by setting up references, fostering a cohesive 
 ecosystem. Dividing the main project into distinct areas—Customer and Admin—enabled streamlined navigation and management, laying the 
 groundwork for future development and expansion.
+
+
+==================================================================
+                 Assignment 2 part 2 overview
+==================================================================
+The initial phase involved NuGet console-driven migrations, specifically AddDefaultIdentityMigration and AddCategoryToDb, aimed at 
+establishing fundamental and Categories table structures, respectively, followed by executing the update-database command for database 
+updates. Within Rahulbooks.Models, the addition of models, notably Category.cs, laid the groundwork. The project structure expanded with 
+the introduction of a Repository folder housing essential interfaces—IRepository.cs, ICategoryRepository.cs, ISP_Call.cs, IUnitOfWork.cs—which 
+were subsequently implemented in respective class files—Repository.cs, CategoryRepository.cs, SP_Call.cs, UnitOfWork.cs.
+
+the introduction of CategoryController.cs facilitated administrative control, while modifications in views emerged. Key additions included 
+Index.cshtml, presenting categories, and modifications in _Layout.cshtml, incorporating categories within dropdown menus. Moreover, 
+Upsert.cshtml emerged as the central hub for managing categories, equipped with functionalities for adding, updating, and deleting 
+categories. These functionalities were reinforced by intricate modifications in both Upsert.cshtml and category.js, the latter leveraging 
+SweetAlert for streamlined and visually appealing alerts, enhancing user experience during category management.
