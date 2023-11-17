@@ -302,3 +302,9 @@ Created class file ProductRepository.cs and interface IProductRepository.cs
 Implemented interface in class file
 Edited Update method as given in slides
 
+2023-11-16 2014
+Included product in UnitOfWork and IUnitOfWork
+
+2023-11-16 2015
+Runnning Final Buid for the day
+Build is successful
