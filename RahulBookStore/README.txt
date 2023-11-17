@@ -310,7 +310,11 @@ Runnning Final Build for the day
 Build is successful
 
 2023-11-17 1648
-Ceated ProductController.cs in Admin Area.
+Created ProductController.cs in Admin Area.
 Added IUnitofWork and WebHostEnvironment object
 Created ProductVM in RahulBooks.Models
+
+2023-11-17 1659
+Updated ProductVM.cs file
+Had to install a package named Microsoft.AspNetCore.Mvc.ViewFeatures
 
