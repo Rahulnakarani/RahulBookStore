@@ -339,3 +339,7 @@ Forgot to update Info in index.cshtml
 
 2023-11-17 1814
 Added code for tiny cloud in upsert.cshtml
+
+2023-11-17 1816
+Running an application
+Run is successful
