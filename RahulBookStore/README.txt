@@ -260,8 +260,7 @@ Added this line to ApplicationDbContext.cs
 2023-11-16 1947
 Added migartion called Add CoverTypeToDb using nuGet console.
 Command: add-migration AddCoverTypeToDb
-File name: 20231117004604_AddCoverTypeToDb.cs
-
+File name: 20231117021717_AddCoverTypeToDb.cs
 updated the database using update-database command
 
 2023-11-16 1955
@@ -283,3 +282,11 @@ Linked js file to the Index.cshtml
 
 2023-11-16 2053
 updated Upsert.cshtml
+
+2023-11-16 2123
+Created Product.cs file and Added the info as shown in th slides.
+Added this line to ApplicationDbContext.cs       
+        public DbSet<Product> Products { get; set; }
+Added Migration name Add-migration AddProductToDb
+File Name: 20231117022248_AddProductToDb.cs
+Updated Database
