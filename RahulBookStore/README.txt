@@ -290,3 +290,10 @@ Added this line to ApplicationDbContext.cs
 Added Migration name Add-migration AddProductToDb
 File Name: 20231117022248_AddProductToDb.cs
 Updated Database
+
+2023-11-16 2138
+Added validation for Title, ISBN, Author in Product.js
+Added Migration named AddValidationToProduct
+File name: 20231117023238_AddValidationToProduct.cs
+Updated Database
+
