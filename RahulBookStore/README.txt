@@ -322,3 +322,11 @@ Had to install a package named Microsoft.AspNetCore.Mvc.ViewFeatures
 Updated ProductController.cs
 added Upsert method and API Calls.
 GetAll() and Delete()
+
+2023-11-17 1738
+Created Index.cshtml view
+Copied content from Catrgory/index.cshtml
+Added table headers.
+created product.js file
+Copied content from category.js
+Updated links

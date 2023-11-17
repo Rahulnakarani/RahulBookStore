@@ -37,6 +37,11 @@ namespace RahulBookStore.Areas.Admin.Controllers
                     Text = i.Name,
                     Value = i.Id.ToString()
                 }),
+                CoverTypeList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
             };
             if(id == null)
             {
@@ -49,6 +54,27 @@ namespace RahulBookStore.Areas.Admin.Controllers
             }
             return View(productVM);
         }
+
+        /*[HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                if (product.Id == 0)
+                {
+                    _unitOfWork.Product.Add(product);
+
+                }
+                else
+                {
+                    _unitOfWork.Product.Update(product);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(product);
+        } */
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
