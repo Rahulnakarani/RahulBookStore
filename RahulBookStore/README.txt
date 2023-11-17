@@ -306,5 +306,11 @@ Edited Update method as given in slides
 Included product in UnitOfWork and IUnitOfWork
 
 2023-11-16 2015
-Runnning Final Buid for the day
+Runnning Final Build for the day
 Build is successful
+
+2023-11-17 1648
+Ceated ProductController.cs in Admin Area.
+Added IUnitofWork and WebHostEnvironment object
+Created ProductVM in RahulBooks.Models
+
