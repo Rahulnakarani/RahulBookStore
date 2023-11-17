@@ -5,7 +5,7 @@ using System.Text;
 
 namespace RahulBooks.Models
 {
-    class CoverType
+    public class CoverType
     {
         [Key]
         public int Id { get; set; }

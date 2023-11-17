@@ -234,3 +234,17 @@ SweetAlert for streamlined and visually appealing alerts, enhancing user experie
 2023-11-16 1907
 Ran the application before implementing the part 3
 Yay!!! Application runs fine without any error.
+
+2023-11-16 1915
+Created CoverType.cs in RahulBooks.Models for CRUD operation and Added two field Id and Name with validation.
+
+2023-11-16 1923
+Added interface file named ICoverTypeRepository.cs in IRepository folder and Class file name CoverTypeRepository into Repository folder. and made them public so that
+they can be accessed across the entire project.
+Now I am not sure what to add in those files.
+
+2023-11-16 1931
+Updated ICovertyprRepository.cs and made it like ICategoryRepository.cs with the class CoverType.
+
+2023-11-16 1937
+Updated CovertyprRepository.cs and made it like CategoryRepository.cs with the class CoverType. And implemented the interface and updated the update method
