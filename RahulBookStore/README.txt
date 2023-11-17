@@ -330,3 +330,9 @@ Added table headers.
 created product.js file
 Copied content from category.js
 Updated links
+
+2023-11-17 1748
+Updated _Layout.cshtml
+Added <a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
+Updated product.js
+Forgot to update Info in index.cshtml
