@@ -271,3 +271,7 @@ Updated _Layout.cshtml. Added covertype in the dropdown menu.
 Created new Controller named CoverTypeController.cs in Admin area
 Created Folder called CoverType and created index.cshtml file inside the same folder.
 Added same data as index.cshtml file for thr category with slight changes.
+
+2023-11-16 2014
+Updated CoverTypeController and added neccessory method for CRUD oprations.
+create Upsert.cshtml
