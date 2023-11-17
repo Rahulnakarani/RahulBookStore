@@ -297,3 +297,8 @@ Added Migration named AddValidationToProduct
 File name: 20231117023238_AddValidationToProduct.cs
 Updated Database
 
+2023-11-16 2209
+Created class file ProductRepository.cs and interface IProductRepository.cs
+Implemented interface in class file
+Edited Update method as given in slides
+
