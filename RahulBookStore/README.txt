@@ -248,3 +248,18 @@ Updated ICovertyprRepository.cs and made it like ICategoryRepository.cs with the
 
 2023-11-16 1937
 Updated CovertyprRepository.cs and made it like CategoryRepository.cs with the class CoverType. And implemented the interface and updated the update method
+
+2023-11-16 1943
+Added CoverType into UnitOfWork.cs and IUnitOfWork.cs files
+
+2023-11-16 1944
+Added this line to ApplicationDbContext.cs
+        public DbSet<CoverType> CoverType { get; set; }
+
+
+2023-11-16 1947
+Added migartion called Add CoverTypeToDb using nuGet console.
+Command: add-migration AddCoverTypeToDb
+File name: 20231117004604_AddCoverTypeToDb.cs
+
+updated the database using update-database command
