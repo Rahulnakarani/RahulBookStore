@@ -263,3 +263,11 @@ Command: add-migration AddCoverTypeToDb
 File name: 20231117004604_AddCoverTypeToDb.cs
 
 updated the database using update-database command
+
+2023-11-16 1955
+Updated _Layout.cshtml. Added covertype in the dropdown menu.
+
+2023-11-16 2004
+Created new Controller named CoverTypeController.cs in Admin area
+Created Folder called CoverType and created index.cshtml file inside the same folder.
+Added same data as index.cshtml file for thr category with slight changes.
