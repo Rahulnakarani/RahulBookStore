@@ -275,3 +275,8 @@ Added same data as index.cshtml file for thr category with slight changes.
 2023-11-16 2014
 Updated CoverTypeController and added neccessory method for CRUD oprations.
 create Upsert.cshtml
+
+2023-11-16 2039
+Updated Upsert.cshtml added content from Upsert.cshtml from category.
+Created covertype.js to show thw table data and for the delete API calls.
+Linked js file to the Index.cshtml
