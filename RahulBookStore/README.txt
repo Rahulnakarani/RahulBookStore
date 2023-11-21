@@ -350,3 +350,7 @@ Uncommented Upsert from ProductController.cs
 To update the method no file is given in Assignment 2 files
 Final build and run
 Getting an error must be because of the upsert method
+
+2023-11-21 1121
+Finally figured out the error 
+Forgot to add one line in UnitOfWork "Product = new ProductRepository(_db);"
