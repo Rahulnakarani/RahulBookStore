@@ -10,7 +10,7 @@ using RahulBookStore.DataAccess.Data;
 namespace RahulBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231117021717_AddCoverTypeToDb")]
+    [Migration("20231117004604_AddCoverTypeToDb")]
     partial class AddCoverTypeToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
