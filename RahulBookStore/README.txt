@@ -433,3 +433,10 @@ Added Code for retriving product from database and shoe on the main page
 Updated Startup.cs
 services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddRazorPages();
+
+
+2023-11-26 1345
+Let's try and Run the application
+
+Oops!! Getting an error
+NullReferenceException: Object reference not set to an instance of an object
