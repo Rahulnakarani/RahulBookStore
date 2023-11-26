@@ -374,10 +374,13 @@ File Name: 20231126171120_UpdateProductTable.cs
 2023-11-26 1240
 Updated SD.cs in Utility Project
 
-2026-11-26 1243
+2023-11-26 1243
 Updated ProductRepository.cs
 Added 3 lines for the new fields created
               objFromDb.Price = product.Price;
               objFromDb.Price50 = product.Price50;
               objFromDb.Price100 = product.Price100;
 
+2023-11-26 1256
+Updated ProductController.cs
+Updated Upsert and Delete API
