@@ -393,3 +393,7 @@ Changed this line for the dropdown
 @Html.DropDownListFor(m => m.Product.CoverTypeId, Model.CoverTypeList, "-Select a Cover Type",
                    new { @class = "form-control" })
                     <span asp-validation-for="Product.CoverTypeId" class="text-danger"></span>
+
+2023-11-26 1326
+Updated product.js 
+Had to change category.Name to category.name to show all the records
