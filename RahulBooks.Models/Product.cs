@@ -41,7 +41,7 @@ namespace RahulBooks.Models
 
         [Required]
         public int CoverTypeId { get; set; }
-        [ForeignKey("CovertypeId")]
+        [ForeignKey("CoverTypeId")]
         public CoverType CoverType { get; set; }
     }
 }

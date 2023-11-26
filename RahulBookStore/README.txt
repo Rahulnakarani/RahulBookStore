@@ -364,3 +364,10 @@ Compared Whole project with product given by the Proff.
 Updated Product.cs
 Added New fields Price, Price50, Price100 with validations
 Changed Foreign key for CovertypeId
+
+2023-11-26 1211
+Added Migration UpdateProductTable
+Updated Databse
+Command: add-migration UpdateProductTable
+File Name: 20231126171120_UpdateProductTable.cs
+
