@@ -371,3 +371,5 @@ Updated Databse
 Command: add-migration UpdateProductTable
 File Name: 20231126171120_UpdateProductTable.cs
 
+2023-11-26 1240
+Updated SD.cs in Utility Project
