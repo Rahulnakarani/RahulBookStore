@@ -450,3 +450,9 @@ Can see the data on the home page but still cannot see the images
 The error is that some of the path is not proper.
 
 Have to figureout something
+
+2023-11-26 1644
+Had to create images/products in wwwroot folder
+I have already created it but I don't know what was wrong
+
+Enterd two images
