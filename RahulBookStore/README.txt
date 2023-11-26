@@ -440,3 +440,13 @@ Let's try and Run the application
 
 Oops!! Getting an error
 NullReferenceException: Object reference not set to an instance of an object
+
+2023-11-26 1412
+Solved the error
+Forgot to update the HomeContoller.cs file
+
+Can see the data on the home page but still cannot see the images
+
+The error is that some of the path is not proper.
+
+Have to figureout something
