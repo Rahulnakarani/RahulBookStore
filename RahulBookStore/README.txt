@@ -397,3 +397,39 @@ Changed this line for the dropdown
 2023-11-26 1326
 Updated product.js 
 Had to change category.Name to category.name to show all the records
+
+2023-11-26 1342
+Updated Index.cshtml in Customer Area
+Added Code for retriving product from database and shoe on the main page
+<div class="row pb-3 backgroundWhite">
+
+    @foreach (var product in Model)
+    {
+        <div class="col-lg-3 col-md-6">
+            <div class="row p-2">
+                <div class="col-12  p-1" style="border:1px solid #008cba; border-radius: 5px;">
+                    <div class="card" style="border:0px;">
+                        <img src="@product.ImageUrl" class="card-img-top rounded" />
+                        <div class="pl-1">
+                            <p class="card-title h5"><b style="color:#2c3e50">@product.Title</b></p>
+                            <p class="card-title text-primary">by <b>@product.Author</b></p>
+                        </div>
+                        <div style="padding-left:5px;">
+                            <p>List Price: <strike><b class="">$ @product.ListPrice.ToString("0.00")</b></strike></p>
+                        </div>
+                        <div style="padding-left:5px;">
+                            <p style="color:maroon">As low as: <b class="">$@product.Price100.ToString("0.00")</b></p>
+                        </div>
+                    </div>
+                    <div>
+                        <a asp-action="Details" class="btn btn-primary form-control" asp-route-id="@product.Id">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+Updated Startup.cs
+services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddRazorPages();
