@@ -384,3 +384,12 @@ Added 3 lines for the new fields created
 2023-11-26 1256
 Updated ProductController.cs
 Updated Upsert and Delete API
+
+2023-11-26 1321
+Updated Admin/Views/Product/Upsert.cshtml
+Added Labels and input fields for new data fields added in Table products.
+Price, Price50, Price100
+Changed this line for the dropdown
+@Html.DropDownListFor(m => m.Product.CoverTypeId, Model.CoverTypeList, "-Select a Cover Type",
+                   new { @class = "form-control" })
+                    <span asp-validation-for="Product.CoverTypeId" class="text-danger"></span>
