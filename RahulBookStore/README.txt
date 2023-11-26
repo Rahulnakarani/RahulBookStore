@@ -456,3 +456,7 @@ Had to create images/products in wwwroot folder
 I have already created it but I don't know what was wrong
 
 Enterd two images
+
+2023-11-26 1709
+Builded and runned the application
+Everything works fine
