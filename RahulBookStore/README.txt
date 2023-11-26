@@ -354,3 +354,13 @@ Getting an error must be because of the upsert method
 2023-11-21 1121
 Finally figured out the error 
 Forgot to add one line in UnitOfWork "Product = new ProductRepository(_db);"
+
+
+2023-11-26 1129
+Starting Part 4
+Compared Whole project with product given by the Proff.
+
+2023-11-26 1130
+Updated Product.cs
+Added New fields Price, Price50, Price100 with validations
+Changed Foreign key for CovertypeId
