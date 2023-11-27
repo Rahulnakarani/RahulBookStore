@@ -460,3 +460,8 @@ Enterd two images
 2023-11-26 1709
 Builded and runned the application
 Everything works fine
+
+2023-11-2 1728
+Updated Product/Upsert.cshtml
+
+Removed Strike from Home page
