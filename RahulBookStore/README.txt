@@ -461,7 +461,31 @@ Enterd two images
 Builded and runned the application
 Everything works fine
 
-2023-11-2 1728
+2023-11-27 1728
 Updated Product/Upsert.cshtml
 
 Removed Strike from Home page
+
+2023-11-27 1821
+There wasn't any popup message when the image is not uploaded
+Had to update Init code
+
+<script>
+
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'lists',
+            menubar: 'file edit format'
+        });
+
+
+        function validateInput() {
+            if (document.getElementById("uploadBox").value == "") {
+                swal("Error", "Please select an image", "error");
+                return false;
+            }
+            return true;
+        }
+
+    </script>
+}
