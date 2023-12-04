@@ -492,3 +492,7 @@ Had to update Init code
 
 2023-11-28 1401
 Added images for the 3 images for home page
+
+2023-12-04
+I thought we were suppose to add All the field in given repo
+Trying to delete it
