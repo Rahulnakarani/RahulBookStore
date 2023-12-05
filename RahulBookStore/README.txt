@@ -498,5 +498,18 @@ I thought we were suppose to add All the field in given repo
 Trying to delete it
  
 2023-12-04 1806
-Updated some migration
+Uphdated some migration
 trying to solve some error
+
+2023-12-05 1458
+when I try to populate the products table i am getting this warning it is not reading the value of "price"
+"DataTables warning: table id=tblData - Requested unknown parameter 'price' for row 0, column 2. For more information about this error, please see http://datatables.net/tn/4"
+
+I went to the url that is given in waring http://datatables.net/tn/4 trying to find some solution
+In that url I show the solution for integer which is removing rowsopan or colspan but I haven't used it in my project
+
+Asked professor for solution and he told me to look for any accessive space.
+I checked that so I coun't find any.
+
+Tried to change and update product.js, Product/Upsert.cshtml, ProductContoller.cs and Migrations
+Nothing seems to work

@@ -31,11 +31,6 @@ namespace RahulBooks.DataAccess.Migrations
                 name: "FK_Products_CoverType_CoverTypeId",
                 table: "Products");
 
-
-            migrationBuilder.DropColumn(
-                name: "Price50",
-                table: "Products");
-
             migrationBuilder.AddForeignKey(
                 name: "FK_Products_CoverType_CategoryId",
                 table: "Products",

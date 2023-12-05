@@ -56,27 +56,6 @@ namespace RahulBookStore.Areas.Admin.Controllers
             return View(productVM);
         }
 
-        /*[HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Upsert(Product product)
-        {
-            if (ModelState.IsValid)
-            {
-                if (product.Id == 0)
-                {
-                    _unitOfWork.Product.Add(product);
-
-                }
-                else
-                {
-                    _unitOfWork.Product.Update(product);
-                }
-                _unitOfWork.Save();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(product);
-        }*/
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(ProductVM productVM)
@@ -153,19 +132,6 @@ namespace RahulBookStore.Areas.Admin.Controllers
             var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
             return Json(new { data = allObj });
         }
-
-        /*[HttpDelete]
-        public IActionResult Delete(int id)
-        {
-            var objFromDb = _unitOfWork.Product.Get(id);
-            if (objFromDb == null)
-            {
-                return Json(new { success = false, message = "Error while Deleting" });
-            }
-            _unitOfWork.Product.Remove(objFromDb);
-            _unitOfWork.Save();
-            return Json(new { success = true, message = "Delete Successful" });
-        }*/
 
         [HttpDelete]
         public IActionResult Delete(int id)
